@@ -1,0 +1,28 @@
+.cont{
+   
+    border: 2px inset black;
+    background-color: azure;
+    
+}
+.container{
+    width: 60%;
+    margin-top: 30px;
+    
+}
+nav {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+body{
+    background-image: url(hotel8.jpg) ;
+    background-size: cover;
+}
+
+span{
+    width: 90%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: blue;
+}

@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+body{
+    background-image: url(hotel8.jpg) ;
+    background-size: cover;
+}
+
+#main{
+    width: 100%;
+  
+}
+.corps{
+    width: 100%;
+   background-image: url(h.jpg);
+}
+.log{
+    width:6%;
+}
+#nav1{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    opacity: 0.8;
+    line-height: 80px;
+  
+}
+
+
+#nav1 ul{
+    float: right; 
+    margin-right: 30px;
+}
+
+#nav1 ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+#nav1 ul li:hover{
+    background-color: #f39d1a; 
+    transition: 0.8s all;
+}
+
+#nav1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+
+
+}
+#nav1 ul li a.con {
+    background-color: #f39d1a; 
+}
+
+#section{
+    position: relative;
+    
+}
+
+#section span{
+    font-size: 20px;
+    font-family: cursive;
+    color: blue;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+span p{
+    width: 700px;
+margin:0 auto;
+
+padding: 10px;
+font-size: 32px;
+color: black;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+opacity: 0,7;
+width: 90%;
+text-align: center;
+
+
+}
+#chambre1{
+    
+    border: 4px inset white;
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: azure;
+    
+}
+#chambre2{
+    
+    border: 4px inset white;
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: azure;
+
+}
+#chambre3{
+   
+    border: 4px inset white;
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: azure;
+
+}
+#chambre4{
+   
+    border: 4px inset white;
+    width: 400px;
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: azure;
+    display: inline-block;
+
+}
+#chambre5{
+    border: 4px inset white;
+    width: 400px;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background-color: azure;
+    display: inline-block;
+
+    
+}
+
+#chambre6{
+    border: 4px inset white;
+    width: 400px;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background-color: azure;
+    display: inline-block;
+
+    
+}
+
+
+#chambre1:hover .imagechambre{
+    transform: scale(1.2)
+
+}
+
+#chambre2:hover .imagechambre{
+    transform: scale(1.2)
+
+}
+
+#chambre3:hover .imagechambre{
+    transform: scale(1.2)
+
+}
+
+
+#chambre4:hover .imagechambre{
+    transform: scale(1.2)
+
+}
+
+#chambre5:hover .imagechambre{
+    transform: scale(1.2)
+
+}
+#chambre6:hover .imagechambre{
+    transform: scale(1.2)
+
+}
+.imagechambre{
+    width: 100%;
+    height: 200px;
+    transition: 3s;
+
+}
+
+label{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+label a{
+    text-decoration: none;
+    color: #000;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 110px; 
+   
+}
+
+#foot{
+    width: 100%;
+    background-image: url(hotel.jpg);
+    background-size: cover;
+}
+#nav{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.8;
+  
+}
+#nav ul li:hover{
+    background-color: orange; 
+    transition: 0.5s all;
+}
+
+#infologo{
+    
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    top: 50px;
+    left: 80px;
+    color: white;
+
+}
+
+#pages{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 450px;
+    color: white;
+
+}
+
+
+#contactinfo{
+    position: absolute;
+    width: 300px;
+    height:180px;
+    top: 50px;
+    left: 600px;
+    color: white;
+
+}
+
+
+#follow{
+    position: absolute;
+    width: 300px;
+    height:100px;
+    top: 50px;
+    left: 950px;
+    color: white;
+
+}
+
+
+
+
+
+#twitter{
+    width: 40px;
+    height: 40px;
+}
+
+#insta{
+    width: 40px;
+    height: 40px;
+}
+
+#fb{
+    width: 40px;
+    height: 40px;
+}
+#youtube{
+    width: 40px;
+    height: 40px;
+
+}
+li{
+    list-style-type: none;
+}
+ul li{
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+  
+}
+
+.titre{
+    font-family:Verdana;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width : 1000px) {
+   
+    #chambre1,   #chambre2, #chambre3, #chambre4, #chambre5, #chambre6{
+        margin-left: 100px;
+        margin-right: 100px
+    }
+    #foot{
+        width: 100%;
+        background-image: url(hotel.jpg);
+        background-size: cover;
+        margin: 0;
+        float: left;
+    }
+    #nav{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        opacity: 0.8;
+        display: block;
+      
+    }
+    #nav ul li:hover{
+        background-color: orange; 
+        transition: 0.5s all;
+    }
+    #infologo, #pages, #contactinfo, #follow{
+        width: 50%;
+        border-left: none;
+        border-right: none;
+        margin-left: 0;
+        margin-right: 0;
+     
+    }
+    
+    #infologo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #follow{
+        height: 20px;
+        margin-top: 500px;
+       margin-left: -860px;
+       width: 48%;
+    }
+    #pages{
+            margin-top: 180px;
+            margin-left: -370px;
+       
+    }
+    #contactinfo{
+        height: 20px;
+        margin-top: 320px;
+        width: 100%;
+       position: absolute;
+       margin-left: -520px;
+       
+    }
+    
+    #twitter{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #insta{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #fb{
+        width: 40px;
+        height: 40px;
+    }
+    #youtube{
+        width: 40px;
+        height: 40px;
+    
+    }
+    li{
+        list-style-type: none;
+    }
+    ul li{
+        font-size: 20px;
+    }
+    ul li a{
+        text-decoration: none;
+      
+    }
+    
+    .titre{
+        font-family:Verdana;
+        font-size: 20px;
+    }
+    hr{
+        display: none;
+    }
+    
+     }
+     @media screen and (max-width : 850px) {
+        #nav1 ul li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 15px;
+        }
+     
+   
+            #chambre1,   #chambre2, #chambre3, #chambre4, #chambre5, #chambre6{
+                margin-left: 100px;
+                margin-right: 100px
+            }
+    
+    }
+    
+     @media screen and (max-width : 700px) {
+    
+        #main{
+            width: 100%;
+          
+        }
+        .corps{
+            width: 100%;
+           background-image: url(h.jpg);
+        }
+        #nav1{
+            
+            width: 100%;
+            height: 40px;
+            background-color: #000;
+            opacity: 0.8;
+            line-height: 50px;
+          
+        }
+        
+        
+        #nav1 ul{
+            float: right; 
+            margin-right: 2px;
+        }
+        
+        #nav1 ul li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 20px;
+        }
+        #nav1 ul li:hover{
+            background-color: #f39d1a; 
+            transition: 0.8s all;
+        }
+        #nav1 ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px;
+        
+        }
+   
+        #chambre1,   #chambre2, #chambre3, #chambre4, #chambre5, #chambre6{
+            margin-left: 100px;
+            margin-right: 100px
+        }
+         
+    #infologo{
+        margin-right: -60px;
+     margin-left: -25px;
+    }
+    
+    #follow{
+        height: 20px;
+        margin-top: 500px;
+       margin-left: -860px;
+       width: 48%;
+    }
+    #pages{
+            margin-top: 180px;
+            margin-left: -405px;
+       
+    }
+    #contactinfo{
+        height: 20px;
+        margin-top: 320px;
+        width: 100%;
+       position: absolute;
+       margin-left: -590px;
+       
+    }
+            #nav{
+                width: 100%;
+                height: 130vh;
+                background-color: black;
+                opacity: 0.8;
+                display: block;
+              
+            }
+        hr{
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width : 600px) {
+    
+        #main{
+            width: 100%;
+          
+        }
+        .corps{
+            width: 100%;
+           background-image: url(h.jpg);
+        }
+        #nav1{
+            
+            width: 100%;
+            height: 40px;
+            background-color: #000;
+            opacity: 0.8;
+            line-height: 50px;
+          
+        }
+        
+        
+        #nav1 ul{
+            float: right; 
+            margin-right: 5px;
+        }
+        
+        #nav1 ul li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #nav1 ul li:hover{
+            background-color: #f39d1a; 
+            transition: 0.8s all;
+        }
+        #nav1 ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px;
+        
+        
+        }
+        
+     #chambre1,   #chambre2, #chambre3, #chambre4, #chambre5, #chambre6{
+         margin:0;
+         
+     }
+        #nav{
+            width: 100%;
+            height: 130vh;
+            background-color: black;
+            opacity: 0.8;
+            display: block;
+            top:100px;
+          
+        }
+    
+    #infologo{
+        margin-right: -60px;
+     margin-left: -55px;
+    }
+    
+    #follow{
+        height: 20px;
+        margin-top: 500px;
+       margin-left: -860px;
+       width: 48%;
+    }
+    #pages{
+            margin-top: 180px;
+            margin-left: -445px;
+       
+    }
+    #contactinfo{
+        height: 20px;
+        margin-top: 320px;
+        width: 100%;
+       position: absolute;
+       margin-left: -600px;
+       
+    }
+     hr{
+        display: none;
+    }
+    }

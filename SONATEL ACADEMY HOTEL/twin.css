@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+body{
+    background-image: url(hotel8.jpg) ;
+    background-size: cover;
+}
+
+#main{
+    width: 100%;
+  
+}
+.corps{
+    width: 100%;
+   background-image: url(h.jpg);
+}
+.log{
+    width:6%;
+}
+#nav1{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    opacity: 0.8;
+    line-height: 80px;
+  
+}
+
+
+#nav1 ul{
+    float: right; 
+    margin-right: 30px;
+}
+
+#nav1 ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+#nav1 ul li:hover{
+    background-color: #f39d1a; 
+    transition: 0.8s all;
+}
+#nav1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+
+
+}
+#nav1 ul li a.con {
+    background-color: #f39d1a; 
+}
+
+#section{
+    margin-bottom: 600px;
+}
+#section span{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section span h1{
+    text-align: center;
+}
+/**#chambre1{
+    border: 2px inset orangered;
+    border-radius: 20px;
+    width: 40%;
+    min-height: 200px;
+float: left; 
+   margin-left: 20px;
+   padding: 20px;
+    
+}**/
+
+#chambre3{
+    
+    border: 2px inset orangered;
+    border-radius: 20px;
+    width: 40%;
+    height: 400px;
+    float: left; 
+   margin-left: 20px;
+   padding: 20px;
+      background-image: url(twin1.jpg);
+      background-size: cover;
+    
+      
+    
+    webkit-animation-name: diapo;
+    webkit-animation-duration:3s;
+    webkit-animation-timing-function: linear;
+    webkit-animation-iteration-count: infinite;
+    webkit-animation-direction:normal;
+    
+    moz-animation-name: diapo;
+    moz-animation-duration:3s;
+    moz-animation-timing-function: linear;
+    moz-animation-iteration-count: infinite;
+    moz-animation-direction:normal;
+    
+    
+    animation-name: diapo;
+    animation-duration:3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    }
+    
+    @-webkit-keyframes diapo{
+      0%{background-image:url(twin1.jpg);}
+      50%{background-image:url(twin2.jpg);}
+    }
+    
+    @-moz-keyframes diapo{
+      0%{background-image:url(twin1.jpg);}
+      50%{background-image:url(twin2.jpg);}
+    }
+    @keyframes diapo{
+      0%{background-image:url(twin1.jpg);}
+      50%{background-image:url(twin2.jpg);}
+    }
+    
+#chambre4 label{
+    margin-bottom: 30%;
+}
+#chambre4 label a{
+    margin-top: 20px;
+    float: left;
+}
+#desc{
+    border: 2px inset orangered;
+    border-radius: 20px;    margin-left: 20px;
+float: left;
+width: 45%;
+height: 500px;
+padding: 20px;
+background-color: #fff;
+}
+#desc p{
+    font-size: 22px;
+}
+#desc li{
+    font-size: 22px;
+}
+
+#desc h2{
+    color: blue;
+}
+.imagechambre{
+    width: 100%;
+    height: 400px;
+}
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 110px;
+}
+
+#foot{
+    width: 100%;
+    background-image: url(hotel.jpg);
+    background-size: cover;
+}
+#nav{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.8;
+  
+}
+#nav ul li:hover{
+    background-color: orange; 
+    transition: 0.5s all;
+}
+
+#infologo{
+    
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    top: 50px;
+    left: 80px;
+    color: white;
+
+}
+
+#pages{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 450px;
+    color: white;
+
+}
+
+
+#contactinfo{
+    position: absolute;
+    width: 300px;
+    height:180px;
+    top: 50px;
+    left: 600px;
+    color: white;
+
+}
+
+
+#follow{
+    position: absolute;
+    width: 300px;
+    height:100px;
+    top: 50px;
+    left: 950px;
+    color: white;
+
+}
+
+
+
+
+
+#twitter{
+    width: 40px;
+    height: 40px;
+}
+
+#insta{
+    width: 40px;
+    height: 40px;
+}
+
+#fb{
+    width: 40px;
+    height: 40px;
+}
+#youtube{
+    width: 40px;
+    height: 40px;
+
+}
+li{
+    list-style-type: none;
+}
+ul li{
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+  
+}
+
+.titre{
+    font-family:Verdana;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width : 1200px) {
+    #chambre3{
+        width: 80%;
+    }
+    #section{
+        height: 89vh;
+    }
+    #desc{
+        height:89vh;
+        width: 80%;
+    }
+    #desc p{
+        font-size: 22px;
+    }
+    #desc li{
+        font-size: 22px;
+    }
+    
+    #foot{
+        width: 100%;
+        background-image: url(hotel.jpg);
+        background-size: cover;
+        margin: 0;
+        float: left;
+    }
+    #nav{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        opacity: 0.8;
+        display: block;
+      
+    }
+    #nav ul li:hover{
+        background-color: orange; 
+        transition: 0.5s all;
+    }
+    #infologo, #pages, #contactinfo, #follow{
+        width: 50%;
+        border-left: none;
+        border-right: none;
+        margin-left: 0;
+        margin-right: 0;
+     
+    }
+    #desc{
+        height:80vh;
+    }
+    #infologo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #follow{
+        height: 20px;
+        margin-top: 500px;
+       margin-left: -860px;
+       width: 48%;
+    }
+    #pages{
+            margin-top: 180px;
+            margin-left: -370px;
+       
+    }
+    #contactinfo{
+        height: 20px;
+        margin-top: 320px;
+        width: 100%;
+       position: absolute;
+       margin-left: -520px;
+       
+    }
+    
+    #twitter{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #insta{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #fb{
+        width: 40px;
+        height: 40px;
+    }
+    #youtube{
+        width: 40px;
+        height: 40px;
+    
+    }
+    li{
+        list-style-type: none;
+    }
+    ul li{
+        font-size: 20px;
+    }
+    ul li a{
+        text-decoration: none;
+      
+    }
+    
+    .titre{
+        font-family:Verdana;
+        font-size: 20px;
+    }
+    hr{
+        display: none;
+    }
+    
+     }
+     @media screen and (max-width : 900px) {
+       
+        #chambre3{
+            width: 80%;
+        }
+        #section{
+            height: 85vh;
+        }
+        #desc{
+            height:85vh;
+            width: 80%;
+        }
+        #desc p{
+            font-size: 22px;
+        }
+        #desc li{
+            font-size: 22px;
+        }
+   
+            
+    }
+    
+     @media screen and (max-width : 850px) {
+        #nav1 ul li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #chambre3{
+            width: 80%;
+        }
+        #section{
+            height: 80vh;
+        }
+        #desc{
+            height:85vh;
+            width: 80%;
+        }
+        #desc p{
+            font-size: 22px;
+        }
+        #desc li{
+            font-size: 22px;
+        }
+   
+            
+    }
+    
+     @media screen and (max-width : 700px) {
+    
+        #main{
+            width: 100%;
+          
+        }
+        .corps{
+            width: 100%;
+           background-image: url(h.jpg);
+        }
+        #nav1{
+            
+            width: 100%;
+            height: 40px;
+            background-color: #000;
+            opacity: 0.8;
+            line-height: 50px;
+          
+        }
+        
+        
+        #nav1 ul{
+            float: right; 
+            margin-right: 2px;
+        }
+        
+        #nav1 ul li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 20px;
+        }
+        #nav1 ul li:hover{
+            background-color: #f39d1a; 
+            transition: 0.8s all;
+        }
+        #nav1 ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px;
+        
+        }
+   
+        #chambre3{
+            width: 80%;
+        }
+        #section{
+            height: 100vh;
+        }
+        #desc{
+            height:100vh;
+            width: 80%;
+        }
+        #desc p{
+            font-size: 22px;
+        }
+        #desc li{
+            font-size: 22px;
+        }
+         
+    #infologo{
+        margin-right: -60px;
+     margin-left: -25px;
+    }
+    
+    #follow{
+        height: 20px;
+        margin-top: 500px;
+       margin-left: -860px;
+       width: 48%;
+    }
+    #pages{
+            margin-top: 180px;
+            margin-left: -405px;
+       
+    }
+    #contactinfo{
+        height: 20px;
+        margin-top: 320px;
+        width: 100%;
+       position: absolute;
+       margin-left: -590px;
+       
+    }
+            #nav{
+                width: 100%;
+                height: 130vh;
+                background-color: black;
+                opacity: 0.8;
+                display: block;
+              
+            }
+        hr{
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width : 600px) {
+    
+        #main{
+            width: 100%;
+          
+        }
+        .corps{
+            width: 100%;
+           background-image: url(h.jpg);
+        }
+        #nav1{
+            
+            width: 100%;
+            height: 40px;
+            background-color: #000;
+            opacity: 0.8;
+            line-height: 50px;
+          
+        }
+        
+        
+        #nav1 ul{
+            float: right; 
+            margin-right: 5px;
+        }
+        
+        #nav1 ul li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #nav1 ul li:hover{
+            background-color: #f39d1a; 
+            transition: 0.8s all;
+        }
+        #nav1 ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px;
+        
+        
+        }
+    
+        #nav{
+            width: 100%;
+            height: 130vh;
+            background-color: black;
+            opacity: 0.8;
+            display: block;
+            top:100px;
+          
+        }
+
+        #chambre4{
+            width: 80%;
+        }
+        #section{
+            height: 100vh;
+        }
+        #desc{
+            height:100vh;
+            width: 80%;
+        }
+        #desc p{
+            font-size: 22px;
+        }
+        #desc li{
+            font-size: 22px;
+        }
+    #infologo{
+        margin-right: -60px;
+     margin-left: -55px;
+    }
+    
+    #follow{
+        height: 20px;
+        margin-top: 500px;
+       margin-left: -860px;
+       width: 48%;
+    }
+    #pages{
+            margin-top: 180px;
+            margin-left: -445px;
+       
+    }
+    #contactinfo{
+        height: 20px;
+        margin-top: 320px;
+        width: 100%;
+       position: absolute;
+       margin-left: -600px;
+       
+    }
+     hr{
+        display: none;
+    }
+    }
